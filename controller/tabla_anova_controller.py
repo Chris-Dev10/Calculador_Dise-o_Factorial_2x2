@@ -24,7 +24,7 @@ class TablaAnovaController(object):
         datos = numpy.array([[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], numpy.int16)
         
         datos_workbook = load_workbook('model/Datos.xlsx')
-        ejemplo_1_worksheet = datos_workbook['Ejercicio 1']
+        ejemplo_1_worksheet = datos_workbook['Ejemplo 1']
 
         for row in range(0, 12):
             for column in range(0, 3):

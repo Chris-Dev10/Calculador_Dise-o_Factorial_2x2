@@ -7,9 +7,7 @@ class TablaAnovaModel(object):
         
         #numpy.array([[130, 34, 20], [74, 80, 82], [155, 40, 70], [180, 75, 58], [150, 136, 25], [159, 106, 58], [188, 122, 70], [126, 115, 45], [138, 174, 96], [168, 150, 82], [110, 120, 104], [160, 139, 60]], numpy.int16)
 
-        self._niveles_factor_a = 4
-        
-        #3
+        self._niveles_factor_a = 3
 
         self._niveles_factor_b = 3
 
